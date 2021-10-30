@@ -1,0 +1,32 @@
+{
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "Full stack web application building on both front and back end development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fons3517/Project2.git"
+  },
+  "author": "Alfonso Robles, Michael Fischer, Jager Overson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fons3517/Project2/issues"
+  },
+  "homepage": "https://github.com/fons3517/Project2#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect": "^3.7.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.3.2",
+    "sequelize": "^6.8.0",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0"
+  }
+}
