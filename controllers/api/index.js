@@ -2,7 +2,7 @@ const router = require('express').Router();
 const sequelize = require('../config/connection');
 
 router.get('/', async (req, res) => {
-    const dishData = await Dish.findAll().catch((err) => {
+    const dishData = await .findAll().catch((err) => {
         res.json(err);
     });
     const dishes = dishData.map((dish) => dish.get({ plain: true }));
