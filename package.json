@@ -4,14 +4,15 @@
   "description": "Full stack web application building on both front and back end development.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fons3517/Project2.git"
   },
   "author": "Alfonso Robles, Michael Fischer, Jager Overson",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/fons3517/Project2/issues"
   },
